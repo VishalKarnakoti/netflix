@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    height: 750px;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 3) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 3) 100%),url(netflix\ background.jpg);
+    background-size: cover;
+ 
+    
+}
+.netflix-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.logo{
+    background-image: url("images.png");
+    background-size: cover;
+    /* scale: 100px; */
+    height: 80px;
+    width: 150px;
+    font-weight: 800;
+
+}
+select{
+  font: 16px;
+  font-weight: bold;
+   padding: 6px 36px;
+   background-color: black;
+   color: white;
+   
+  
+}
+
+button{
+    background-color: #E50914;
+    height: 32px;
+    width: 76px;
+    font-weight: bolder;
+    color: white;
+}
+.navbar{
+    margin-right: 100px;
+    display: flex;
+    font-size: 20px;
+}
+/* hero section */
+.hero-section{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-top: 120px;
+}
+.hero-section1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 16px 0px 0px;
+    margin-bottom: 20px;
+    
+}
+.hero-section2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        
+}
+.email-address{
+    display: flex;
+    justify-content: center;
+align-items: center;
+  
+text-align: center;  
+   
+    
+}
+input{
+    padding: 24px 16px 8px ;
+    /* font: 16px; */
+  font-weight: bold;
+   background-color: black;
+   color: white;
+   margin-right: 20px;
+   font-size: 1rem;
+    line-height: 1.5;
+    border: 0.1px solid rgb(168, 164, 164);
+}
+#one{
+    height: 59.2px;
+    width: 200px;
+}
+::placeholder{
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 500px;
+    
+}
+/* this is the main section */
+.main-1{
+    height: 550px;
+    background-color: #000;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4.5rem 0;
+}
+.first-section{
+    text-align: center;
+}
+.first-photo h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.first-photo p{
+    font-size: 2rem;
+}
+.second-photo{
+    width: 100%;
+}
+img{
+    background-image: url("Bade-Miyan-Chote-Miyan-1-2.jpg");
+    background-size: cover;
+}
+/* 2 */
+.main-2{
+    height: 550px;
+    background-color: #000;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4.5rem 0;
+}
+.third-section{
+    text-align: center;
+}
+.third-photo h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.third-photo p{
+    font-size: 2rem;
+}
+.second-photo{
+    width: 100%;}
+    /* main3 */
+    .section-3{
+        height: 550px;
+        background-color: #000;
+        border-top: 2px solid white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 4.5rem 0;
+    }
+    .fourth-section{
+        text-align: center;
+    }
+    .fourth-photo h2{
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+    .fourth-photo p{
+font-size: 2rem;
+    }
+    .fourth-photo{
+        width: 100%;
+    }
+                                                  /* this is the footer section */
+
+   footer{
+    border-top: 0.5px solid white;
+    
+    
+   
+   
+   }
+   .foot-panel1{
+    background-color:#000;
+    color: white;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+   }
+   ul a{
+    display: block;
+   
+   }
+   ul p{
+    margin-bottom: 10px;
+   }
+
+   /* last photo */
+   .footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+   }
+   .last-logo{
+    background-image: url("images.png");
+    background-size: cover;
+    /* scale: 100px; */
+    height: 80px;
+    width: 150px;
+    font-weight: 800;}
